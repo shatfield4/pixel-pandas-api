@@ -2,7 +2,7 @@ const express = require('express')
 const multer = require('multer')
 const path = require('path')
 const moment = require('moment')
-const { HOST } = require('./src/constants')
+const { HOST, REVEALED } = require('./src/constants')
 const db = require('./src/database')
 const fs = require('fs')
 
@@ -21,10 +21,10 @@ app.get('/', function(req, res) {
 })
 app.use('/images', express.static('./storage/images'));
 
-app.get('/api/token/:token_id.json', function(req, res) {
+app.get('/api/token/:token_id', function(req, res) {
   const tokenId = parseInt(req.params.token_id).toString()
 
-  if (parseInt(tokenId) < 0 || parseInt(tokenId) > 8887) {
+  if (parseInt(tokenId) < 1 || parseInt(tokenId) > 410) {
     errorData = {
       'Error' : 'Token ID does not exist'
     }
@@ -37,14 +37,34 @@ app.get('/api/token/:token_id.json', function(req, res) {
     if (err) throw err;
     let file = JSON.parse(fileObj);
     let jsonAttributes = file['attributes'];
-    if(parseInt(tokenId) >= 0 && parseInt(tokenId) < 888) {
-        // Adds genesis trait is 0-887
-        jsonAttributes[jsonAttributes.length] = {"trait_type": "Type", "value": "Genesis"};
+    let tierName;
+    
+    if(parseInt(tokenId) >= 1 && parseInt(tokenId) <= 10) {
+        // Add baller tier to first 10
+        if(REVEALED) {
+          jsonAttributes[jsonAttributes.length] = {"trait_type": "Tier", "value": "Baller"};
+        } else {
+          jsonAttributes = [];
+          jsonAttributes[0] = {"trait_type": "Tier", "value": "Baller"};
+        }
+        tierName = "Baller";
+    } else {
+      // Add diamond tier to the rest
+      if(REVEALED) {
+        jsonAttributes[jsonAttributes.length] = {"trait_type": "Tier", "value": "Diamond"};
+      } else {
+        jsonAttributes = [];
+        jsonAttributes[0] = {"trait_type": "Tier", "value": "Diamond"};
+      }
+      
+      tierName = "Diamond";
     }
+
+    // "image": `${HOST}/${tokenId}.png`, ---> save for reveal
     const data = {
-      "name": `Panda Paradise #${tokenId}`,
-      "description": "Panda Paradise is a collection of 8,888 unique Panda NFTs - living on the Ethereum blockchain. Your Panda Paradise NFT is also your exclusive ticket into our diverse and growing community, and grants access to holder on benefits, which include future airdrop, utility token mechanisms, and our upcoming sandbox MMORPG. All this will be unlocked by our team of developers and community through our roadmap milestones. Join our Paradise here, https://pandaparadise.io/.",
-      "image": `${HOST}/${tokenId}.png`,
+      "name": `${tierName} Hobotizen #${tokenId}`,
+      "description": "TMC NFT is blending real world utilities with Web3 by empowering our community with exclusive tools and resources to become self-made millionaires. Owning one gives you access to real estate alpha, private deals, and the power to network with like-minded individuals and successful millionaires who share their skills and experiences.",
+      "image": `${HOST}/unrevealed-placeholder.gif`,
       "attributes": jsonAttributes,
     }
     res.send(data)

@@ -1,5 +1,7 @@
-const HOST = 'http://pandaparadise.info/nfts'
+const HOST = 'https://api.tmcnft.io'
+const REVEALED = false;
 
 module.exports = {
-  HOST
+  HOST,
+  REVEALED
 }
