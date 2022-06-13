@@ -64,7 +64,7 @@ app.get('/api/token/:token_id', function(req, res) {
     const data = {
       "name": `${tierName} Hobotizen #${tokenId}`,
       "description": "TMC NFT is blending real world utilities with Web3 by empowering our community with exclusive tools and resources to become self-made millionaires. Owning one gives you access to real estate alpha, private deals, and the power to network with like-minded individuals and successful millionaires who share their skills and experiences.",
-      "image": `${HOST}/unrevealed-placeholder.gif`,
+      "image": `${HOST}/images/unrevealed-placeholder.gif`,
       "attributes": jsonAttributes,
     }
     res.send(data)
