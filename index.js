@@ -48,6 +48,15 @@ app.get('/api/token/:token_id', function(req, res) {
           jsonAttributes[0] = {"trait_type": "Tier", "value": "Baller"};
         }
         tierName = "Baller";
+    } else if(parseInt(tokenId) > 10 && parseInt(tokenId) <= 16) {
+      // Baller buddies 11-16
+      if(REVEALED) {
+        jsonAttributes[jsonAttributes.length] = {"trait_type": "Tier", "value": "Baller Buddy"};
+      } else {
+        jsonAttributes = [];
+        jsonAttributes[0] = {"trait_type": "Tier", "value": "Baller Buddy"};
+      }
+      tierName = "Baller Buddy";
     } else {
       // Add diamond tier to the rest
       if(REVEALED) {
