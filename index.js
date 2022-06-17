@@ -39,7 +39,7 @@ app.get('/api/token/:token_id', function(req, res) {
     let jsonAttributes = file['attributes'];
     let tierName;
     
-    if(parseInt(tokenId) >= 1 && parseInt(tokenId) <= 10) {
+    if(parseInt(tokenId) >= 1 && parseInt(tokenId) <= 11) {
         // Add baller tier to first 10
         if(REVEALED) {
           jsonAttributes[jsonAttributes.length] = {"trait_type": "Tier", "value": "Baller"};
@@ -48,7 +48,7 @@ app.get('/api/token/:token_id', function(req, res) {
           jsonAttributes[0] = {"trait_type": "Tier", "value": "Baller"};
         }
         tierName = "Baller";
-    } else if(parseInt(tokenId) > 10 && parseInt(tokenId) <= 16) {
+    } else if(parseInt(tokenId) > 11 && parseInt(tokenId) <= 16) {
       // Baller buddies 11-16
       if(REVEALED) {
         jsonAttributes[jsonAttributes.length] = {"trait_type": "Tier", "value": "Baller Buddy"};
