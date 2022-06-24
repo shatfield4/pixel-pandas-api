@@ -1,1 +1,35 @@
-{"name": "Panda Paradise #42", "description": "Panda Paradise is a collection of 8,888 unique Panda NFTs - living on the Ethereum blockchain. Your Panda Paradise NFT is also your exclusive ticket into our diverse and growing community, and grants access to holder on benefits, which include future airdrop, utility token mechanisms, and our upcoming sandbox MMORPG. All this will be unlocked by our team of developers and community through our roadmap milestones. Join our Paradise here, https://pandaparadise.io/.", "image": "http://pandaparadise.info/nfts/42.png", "attributes": [{"trait_type": "Background", "value": "Tokyo Summer"}, {"trait_type": "Skin", "value": "Brown Panda"}, {"trait_type": "Facial Expression", "value": "Blush"}, {"trait_type": "Body", "value": "Lumberjack"}, {"trait_type": "Head", "value": "Beer Hat"}, {"trait_type": "Strength", "value": 93}, {"trait_type": "Intelligence", "value": 55}, {"trait_type": "Speed", "value": 60}, {"trait_type": "Luck", "value": 92}, {"trait_type": "Weapon", "value": "Tiger Claws"}]}
+{
+  "name": "The Millionaire Club - Hobotizen #42",
+  "description": "TMC NFT",
+  "image": "ipfs://NewUriToReplace/42.png",
+  "dna": "7754b10c5674aeda1713dc57e67618d42037c691",
+  "edition": 42,
+  "date": 1653707581701,
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "CROSSING BRIDGE 8 BIT"
+    },
+    {
+      "trait_type": "BASE",
+      "value": "BLACK"
+    },
+    {
+      "trait_type": "SKIN",
+      "value": "MEGA ARMOR"
+    },
+    {
+      "trait_type": "FACE",
+      "value": "HOBOTIZEN 10"
+    },
+    {
+      "trait_type": "HEAD PIECE",
+      "value": "HALO HELMET"
+    },
+    {
+      "trait_type": "HOLDERS",
+      "value": "BLACK KNIGHT SWORD"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

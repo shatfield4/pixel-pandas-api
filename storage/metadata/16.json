@@ -1,1 +1,15 @@
-{"name": "Panda Paradise #16", "description": "Panda Paradise is a collection of 8,888 unique Panda NFTs - living on the Ethereum blockchain. Your Panda Paradise NFT is also your exclusive ticket into our diverse and growing community, and grants access to holder on benefits, which include future airdrop, utility token mechanisms, and our upcoming sandbox MMORPG. All this will be unlocked by our team of developers and community through our roadmap milestones. Join our Paradise here, https://pandaparadise.io/.", "image": "http://pandaparadise.info/nfts/16.png", "attributes": [{"trait_type": "Background", "value": "Island"}, {"trait_type": "Skin", "value": "Panda"}, {"trait_type": "Facial Expression", "value": "Blush"}, {"trait_type": "Body", "value": "Miami Vice"}, {"trait_type": "Head", "value": "Spartan Helmet"}, {"trait_type": "Strength", "value": 77}, {"trait_type": "Intelligence", "value": 99}, {"trait_type": "Speed", "value": 68}, {"trait_type": "Luck", "value": 82}, {"trait_type": "Weapon", "value": "Sticky Fingers"}]}
+{
+  "name": "The Millionaire Club - Hobotizen #21",
+  "description": "TMC NFT",
+  "image": "ipfs://NewUriToReplace/21.png",
+  "dna": "7fdd16ee1b3faf0371c36677af547bda074829b1",
+  "edition": 21,
+  "date": 1653707649236,
+  "attributes": [
+    {
+      "trait_type": "UNIQUE",
+      "value": "ALEX THE MOGUL"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

@@ -1,1 +1,35 @@
-{"name": "Panda Paradise #320", "description": "Panda Paradise is a collection of 8,888 unique Panda NFTs - living on the Ethereum blockchain. Your Panda Paradise NFT is also your exclusive ticket into our diverse and growing community, and grants access to holder on benefits, which include future airdrop, utility token mechanisms, and our upcoming sandbox MMORPG. All this will be unlocked by our team of developers and community through our roadmap milestones. Join our Paradise here, https://pandaparadise.io/.", "image": "http://pandaparadise.info/nfts/320.png", "attributes": [{"trait_type": "Background", "value": "Cherry Blossom Background"}, {"trait_type": "Skin", "value": "Leapord Skin"}, {"trait_type": "Facial Expression", "value": "Angry"}, {"trait_type": "Body", "value": "Black Hoodie"}, {"trait_type": "Strength", "value": 88}, {"trait_type": "Intelligence", "value": 96}, {"trait_type": "Speed", "value": 89}, {"trait_type": "Luck", "value": 89}, {"trait_type": "Weapon", "value": "Boom Box"}]}
+{
+  "name": "The Millionaire Club - Hobotizen #320",
+  "description": "TMC NFT",
+  "image": "ipfs://NewUriToReplace/320.png",
+  "dna": "b55fe5a0260f73d3fcaf45293dacc52b1b3e20ec",
+  "edition": 320,
+  "date": 1653707078606,
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "NEON TOWN 8 BIT"
+    },
+    {
+      "trait_type": "BASE",
+      "value": "BLACK"
+    },
+    {
+      "trait_type": "SKIN",
+      "value": "SPACE HUNTER"
+    },
+    {
+      "trait_type": "FACE",
+      "value": "HOBOTIZEN 03"
+    },
+    {
+      "trait_type": "HEAD PIECE",
+      "value": "FUTURISTIC GLASS"
+    },
+    {
+      "trait_type": "HOLDERS",
+      "value": "BLACK KNIGHT SWORD"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

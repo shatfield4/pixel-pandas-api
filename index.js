@@ -69,11 +69,11 @@ app.get('/api/token/:token_id', function(req, res) {
       tierName = "Diamond";
     }
 
-    // "image": `${HOST}/${tokenId}.png`, ---> save for reveal
+    // "image": `${HOST}/images/${tokenId}.png`, ---> save for reveal
     const data = {
-      "name": `Unrevealed ${tierName} Hobotizen #${tokenId}`,
+      "name": `${tierName} Hobotizen #${tokenId}`,
       "description": "TMC NFT is blending real world utilities with Web3 by empowering our community with exclusive tools and resources to become self-made millionaires. Owning one gives you access to real estate alpha, private deals, and the power to network with like-minded individuals and successful millionaires who share their skills and experiences.",
-      "image": `${HOST}/images/unrevealed-placeholder.gif`,
+      "image": `${HOST}/images/${tokenId}.png`,
       "attributes": jsonAttributes,
     }
     res.send(data)
@@ -85,5 +85,5 @@ app.get('/api/token/:token_id', function(req, res) {
 })
 
 app.listen(app.get('port'), function() {
-  console.log('Node app is running on port', app.get('port'));
+  console.log('TMC API is running on port: ', app.get('port'));
 })

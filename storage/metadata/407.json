@@ -1,1 +1,35 @@
-{"name": "Panda Paradise #407", "description": "Panda Paradise is a collection of 8,888 unique Panda NFTs - living on the Ethereum blockchain. Your Panda Paradise NFT is also your exclusive ticket into our diverse and growing community, and grants access to holder on benefits, which include future airdrop, utility token mechanisms, and our upcoming sandbox MMORPG. All this will be unlocked by our team of developers and community through our roadmap milestones. Join our Paradise here, https://pandaparadise.io/.", "image": "http://pandaparadise.info/nfts/407.png", "attributes": [{"trait_type": "Background", "value": "Neon Green"}, {"trait_type": "Skin", "value": "Cherry Blossom Skin"}, {"trait_type": "Facial Expression", "value": "Closed Mouth"}, {"trait_type": "Body", "value": "Salmon Hoodie"}, {"trait_type": "Face Accessory", "value": "None"}, {"trait_type": "Strength", "value": 78}, {"trait_type": "Intelligence", "value": 63}, {"trait_type": "Speed", "value": 55}, {"trait_type": "Luck", "value": 95}, {"trait_type": "Weapon", "value": "Bamboo Darts"}]}
+{
+  "name": "The Millionaire Club - Hobotizen #407",
+  "description": "TMC NFT",
+  "image": "ipfs://NewUriToReplace/407.png",
+  "dna": "4ca7ff80cd39bd34d91189be1cc91ad6c3d1ab7b",
+  "edition": 407,
+  "date": 1653707092959,
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "RIVER FLOW 8 BIT"
+    },
+    {
+      "trait_type": "BASE",
+      "value": "WHITE"
+    },
+    {
+      "trait_type": "SKIN",
+      "value": "SPACE HUNTER"
+    },
+    {
+      "trait_type": "FACE",
+      "value": "HOBOTIZEN 03"
+    },
+    {
+      "trait_type": "HEAD PIECE",
+      "value": "FUTURISTIC GLASS"
+    },
+    {
+      "trait_type": "HOLDERS",
+      "value": "KING SCEPTER"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

@@ -1,1 +1,35 @@
-{"name": "Panda Paradise #264", "description": "Panda Paradise is a collection of 8,888 unique Panda NFTs - living on the Ethereum blockchain. Your Panda Paradise NFT is also your exclusive ticket into our diverse and growing community, and grants access to holder on benefits, which include future airdrop, utility token mechanisms, and our upcoming sandbox MMORPG. All this will be unlocked by our team of developers and community through our roadmap milestones. Join our Paradise here, https://pandaparadise.io/.", "image": "http://pandaparadise.info/nfts/264.png", "attributes": [{"trait_type": "Background", "value": "Red"}, {"trait_type": "Skin", "value": "Red Panda"}, {"trait_type": "Facial Expression", "value": "Annoyed"}, {"trait_type": "Body", "value": "Inmate "}, {"trait_type": "Face Accessory", "value": "Heart Eyes"}, {"trait_type": "Head", "value": "High Def Audio"}, {"trait_type": "Strength", "value": 88}, {"trait_type": "Intelligence", "value": 49}, {"trait_type": "Speed", "value": 89}, {"trait_type": "Luck", "value": 60}, {"trait_type": "Weapon", "value": "Wet Towel"}]}
+{
+  "name": "The Millionaire Club - Hobotizen #264",
+  "description": "TMC NFT",
+  "image": "ipfs://NewUriToReplace/264.png",
+  "dna": "1a3ffa6150ab85c7c4c85ef1123c1cccf00f4486",
+  "edition": 264,
+  "date": 1653707252582,
+  "attributes": [
+    {
+      "trait_type": "BACKGROUND",
+      "value": "NEON TOWN 8 BIT"
+    },
+    {
+      "trait_type": "BASE",
+      "value": "WHITE"
+    },
+    {
+      "trait_type": "SKIN",
+      "value": "ASSASSIN"
+    },
+    {
+      "trait_type": "FACE",
+      "value": "HOBOTIZEN 06"
+    },
+    {
+      "trait_type": "HEAD PIECE",
+      "value": "ODIN HELMET"
+    },
+    {
+      "trait_type": "HOLDERS",
+      "value": "KNOWLEDGE"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

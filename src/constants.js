@@ -1,5 +1,5 @@
 const HOST = 'https://api.tmcnftproject.com'
-const REVEALED = false;
+const REVEALED = true;
 
 module.exports = {
   HOST,
