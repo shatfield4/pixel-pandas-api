@@ -1,4 +1,4 @@
-const HOST = 'https://api2.pandaparadise.io';
+const HOST = 'https://api.pandaparadise.xyz';
 const REVEALED = true;
 
 module.exports = {
