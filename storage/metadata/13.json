@@ -1,15 +1,28 @@
 {
-  "name": "The Millionaire Club - Hobotizen #162",
-  "description": "TMC NFT",
-  "image": "ipfs://NewUriToReplace/162.png",
-  "dna": "7f1fc2a230c3c2d9a89dfdb691c0f31b402f0ba3",
-  "edition": 162,
-  "date": 1653707663387,
+  "name": "Pixel Panda #13",
+  "description": "Pixel Pandas were created to withstand the bear market for true degens with a 50% chance of being free. No plans, no utilities for now…",
+  "image": "ipfs://NewUriToReplace/13.png",
+  "edition": 13,
   "attributes": [
     {
-      "trait_type": "UNIQUE",
-      "value": "STEVE THE DISRUPTOR"
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Maid"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Default"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Diamond"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

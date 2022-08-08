@@ -1,4 +1,4 @@
-const HOST = 'https://api.tmcnftproject.com'
+const HOST = 'https://api2.pandaparadise.io';
 const REVEALED = true;
 
 module.exports = {

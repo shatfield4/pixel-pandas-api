@@ -1,15 +1,28 @@
 {
-  "name": "The Millionaire Club - Hobotizen #46",
-  "description": "TMC NFT",
-  "image": "ipfs://NewUriToReplace/46.png",
-  "dna": "35ce3e06bbbed67b0096ca96d972a99b5087d237",
-  "edition": 46,
-  "date": 1653707646501,
+  "name": "Pixel Panda #7",
+  "description": "Pixel Pandas were created to withstand the bear market for true degens with a 50% chance of being free. No plans, no utilities for now…",
+  "image": "ipfs://NewUriToReplace/7.png",
+  "edition": 7,
   "attributes": [
     {
-      "trait_type": "UNIQUE",
-      "value": "THE TMC TERMINATOR"
+      "trait_type": "Background",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ninja"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Corn Dog"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Backwards Hat"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

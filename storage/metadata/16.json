@@ -1,15 +1,28 @@
 {
-  "name": "The Millionaire Club - Hobotizen #21",
-  "description": "TMC NFT",
-  "image": "ipfs://NewUriToReplace/21.png",
-  "dna": "7fdd16ee1b3faf0371c36677af547bda074829b1",
-  "edition": 21,
-  "date": 1653707649236,
+  "name": "Pixel Panda #16",
+  "description": "Pixel Pandas were created to withstand the bear market for true degens with a 50% chance of being free. No plans, no utilities for now…",
+  "image": "ipfs://NewUriToReplace/16.png",
+  "edition": 16,
   "attributes": [
     {
-      "trait_type": "UNIQUE",
-      "value": "ALEX THE MOGUL"
+      "trait_type": "Background",
+      "value": "Light Blue"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Gray"
+    },
+    {
+      "trait_type": "Body",
+      "value": "None"
+    },
+    {
+      "trait_type": "Face",
+      "value": "Anya Mischievous"
+    },
+    {
+      "trait_type": "Head",
+      "value": "None"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }

@@ -1,35 +1,28 @@
 {
-  "name": "The Millionaire Club - Hobotizen #18",
-  "description": "TMC NFT",
+  "name": "Pixel Panda #18",
+  "description": "Pixel Pandas were created to withstand the bear market for true degens with a 50% chance of being free. No plans, no utilities for now…",
   "image": "ipfs://NewUriToReplace/18.png",
-  "dna": "a53c61326739c45c9a3c3b6ed5733a0789b11718",
   "edition": 18,
-  "date": 1653707099918,
   "attributes": [
     {
-      "trait_type": "BACKGROUND",
-      "value": "MYSTICAL WOODS 8 BIT"
+      "trait_type": "Background",
+      "value": "Blue"
     },
     {
-      "trait_type": "BASE",
-      "value": "BASE"
+      "trait_type": "Skin",
+      "value": "Purple"
     },
     {
-      "trait_type": "SKIN",
-      "value": "GOD OF WARS"
+      "trait_type": "Body",
+      "value": "Jersey"
     },
     {
-      "trait_type": "FACE",
-      "value": "HOBOTIZEN 03"
+      "trait_type": "Face",
+      "value": "Cute Face"
     },
     {
-      "trait_type": "HEAD PIECE",
-      "value": "KING CROWN"
-    },
-    {
-      "trait_type": "HOLDERS",
-      "value": "VISION SCEPTER"
+      "trait_type": "Head",
+      "value": "White Bunny"
     }
-  ],
-  "compiler": "HashLips Art Engine"
+  ]
 }
